@@ -1,0 +1,105 @@
+
+/* Informata per te gjitha  */
+/* ?} */
+input, textarea{
+    width: 70%;
+    padding: 1rem;
+    color:#0e4c92;
+    background: var(--color-bg);
+    color: var(--color-white);
+    border-radius: 2mm;
+    border: 1px solid transparent;
+}
+
+
+input:focus{
+    border:1px solid var(--color-primary);
+    box-shadow: 0 1.5rem 1.5rem rgba(0,0,0,0.3);
+}
+
+textarea:focus{
+    border:1px solid var(--color-primary);
+    box-shadow: 0 1.5rem 1.5rem rgba(0,0,0,0.3); 
+}
+
+
+.sendMesasge button{
+    width: max-content;
+    cursor: pointer;
+    margin-top: 0rem;
+    color:#2e3267;
+}
+
+.formaAsk{
+    width:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #2e3267; */
+    width:100%;
+    margin: 0%;
+    padding: 3em;
+    column-gap: 1em;
+    /* margin-left: 27%; */
+}
+
+
+.askform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.askName{
+    display: flex;
+    /* padding: 1em; */
+    column-gap: 1em;
+    color:#0e4c92;
+}
+
+.askEmailQ{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    color:#0e4c92;
+    width:100%;
+}
+
+.askEmailQ .inputform{
+    width:100%;
+}
+
+.formaAsk input, .formaAsk textarea{
+    width: 70%; 
+    color:#0e4c92;
+    background: white;
+    color: var(--color-white);
+    border-radius: 2mm;
+    border: 1px solid cadetblue;
+}
+.formaAsk input::placeholder, .formaAsk textarea::placeholder {
+    color:#266bbb;
+}
+
+.h2ask{
+    color:#0e4c92;
+    margin-bottom: 0.5em;
+}
+.sendMessage{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #0e4c92;
+}
+
+.sendMessage:hover{
+    background-color: #0e4c92;
+    opacity: 90%;
+}

@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+.tabela {
+  position: relative;
+  width: 100%;
+    /* margin :3em; */
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    row-gap: 5%;
+    margin-bottom:300px;
+  }
+.tabela-content {
+    border:1px solid black;
+    /* text-align: center; */
+  }
+  tr, th {
+    /* padding:30px;    */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+  }
+  th {
+    background-color: #00101D;
+    color: #fff;
+  }
+  .addGreen{
+      
+      padding-left:30px;
+      padding-right: 30px;
+      margin-bottom:40px;
+      position: relative;
+      margin-left: 100px;
+  }
+  .kutia{
+    display: flex;
+  }
+
+  

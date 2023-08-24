@@ -1,0 +1,32 @@
+.CoursesCard{
+    background-color: #4682B4;
+    color: aliceblue;
+    
+    /* border: 1px solid #6c63ff; */
+}
+/* //1E90FF */
+.CoursesCard p{
+    color: aliceblue;
+}
+
+.CoursesCard{
+    margin-bottom: 30px;
+}
+  .CoursesCard:hover{
+    box-shadow: 0 3em 3em rgba(0,0,0,0.3);
+    border: 2px solid #6c63ff;
+    color: black;
+    background-color: #6495ED;
+    transition: 400ms ease;
+}
+
+.card-body:hover, .card-text:hover{
+    color: black;
+    background-color: #6495ED;
+    transition: 400ms ease;
+}
+
+.butoni{
+    background-color: #00bf8e;
+    border: #00bf8e;
+}

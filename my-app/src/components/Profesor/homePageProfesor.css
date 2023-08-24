@@ -1,0 +1,126 @@
+/* .navbar{
+    background-color: rgb(204, 200, 200);
+    height: 60px; 
+    position: sticky;
+} */
+
+/* .container-2{
+    margin:5px;
+    
+} */
+
+.HeadText-prof{
+    margin-top:5px;
+    height: 60px;
+    width: 100%;
+    background-color: #007bff;
+  }
+  
+  #HeadText-prof-txt{
+     display: flex;
+     justify-content: center;
+     color: #eeeeee;
+     font-style: italic;
+     font-weight: bold;
+  }
+  .Card1-prof{
+      margin:30px;
+      width: 50%;
+      margin-left:100px;
+  }
+  .BodyCard-prof .ButtonCard{
+      
+      color:black;
+      font-style: italic;
+  }
+  .BodyCard-prof .ButtonCard1{
+      margin-left:20px;
+      color:black;
+      font-style: italic;
+  }
+  #dropdown-basic-button{
+      margin-left:500px;
+  }
+  .Showcase1{
+      width:550px;
+      height:700px;
+      background-color: #eeeeee;
+      margin-left:900px;
+      margin-top:-280px;
+  }
+  /* .ButtonCard2{
+      margin-left:10px;
+  } */
+  .Uploadi{
+      width: 390px;
+  }
+  .Uploadi h4{
+      font-size: 20px;
+      font-style: italic;
+      margin-top: 5px;
+  }
+  .BodyCard-prof .CardTitle{
+      font-weight: bold;
+  }
+  
+  .content-wrapper-prof {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .left-side-prof {
+      margin-top: 2%;
+      margin-left:3% ;
+      width: 400px;
+      height: 400px;
+      margin-right: 20px;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+  
+    #left-side-prof-txt1{
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  
+    #left-side-prof-txt3{
+      margin-bottom: 5px;
+      margin-top: 50px;
+      font-size: 15px;
+      color: black;
+      font-style: italic;
+    }
+  
+    .right-side-prof{
+      margin-top: 10%;
+      margin-right:3% ;
+      width: 300px;
+      height: 200px;
+      margin-right: 20px;
+      background-color: #f0f0f0;
+      padding: 10px;
+      padding-left: 15px;
+      justify-content: space-between;
+      margin-bottom: 10%;
+    }
+  
+    #right-side-prof-txt1{
+      font-size: 20px;
+      margin-top:-15%;
+      color: black;
+      margin-left: 5%;
+    }
+  
+    .calendar-prof {
+      width: 300px; 
+  
+      
+    }
+  
+    .prof-tabel{
+      margin-left: 8%;
+    }
+  
+    
+    
+    

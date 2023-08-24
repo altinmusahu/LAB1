@@ -1,0 +1,29 @@
+.container {
+    margin-top: 70px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table td,
+  .table th {
+    vertical-align: middle !important;
+  }
+  
+  .table thead th {
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    background-color: #343a40;
+    border-color: #454d55;
+    vertical-align: middle !important;
+    text-align: center;
+  }
+  
+  .table td {
+    font-size: 14pt;
+  }
+

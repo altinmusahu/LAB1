@@ -1,0 +1,49 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-fluid{
+    font-size:18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid a{
+    text-decoration: none;
+}
+.container-fluid .navbar-brand{
+    font-size: 23px;
+    font-style: oblique;
+    color:#249edc;
+    margin-left: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-collapse{
+    margin-left:100px;
+}
+.navbar-collapse a{
+    font-size:18px;
+    color:black;
+    margin:5px;
+    margin-right:20px;
+    text-decoration: none;
+}
+.buttons .buttonA{
+    text-decoration: none;
+    color:#249edc;
+}
+.buttons .buttonB{
+    text-decoration: none;
+
+}
+
+
+.dropdown{
+    margin-right:50px;
+    color:#249edc;
+}
+.texti-1{
+    font-weight: lighter;
+    font-style: italic;
+}

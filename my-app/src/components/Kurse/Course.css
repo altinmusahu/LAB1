@@ -1,0 +1,118 @@
+.heroCourse{
+  display: flex;
+  flex-direction: column;
+  column-gap: 1em;
+  padding: 3em;
+  padding-left: 10%;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: aliceblue;
+  height:max-content;
+  width: 100%;
+}
+
+.heroContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3em;
+  margin: 2em;
+}
+
+.heroText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3em;
+}
+
+.heroText h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#0e4c92;
+}   
+
+.heroText i{
+  color: #0e4c92;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+
+.moto{
+  font-style: oblique;
+  position: relative;
+  left: 120%;
+  padding: 1em;
+  color:#0e4c92;
+  font-size: large;
+} 
+
+/* /////////////////////////// */
+
+.courseDescription{
+  
+      display: flex;
+      flex-direction: column;
+      column-gap: 1em;
+      row-gap: 1em;
+      padding: 3em;
+      padding-left: 5%;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(70, 130, 180);
+      height:max-content;
+      width: 100%;
+}
+
+.h1Cd h1{
+  font-family: serif;
+  font-weight: 700;
+  color: whitesmoke;
+  font-style: oblique;
+}
+
+.desH3{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: max-content;
+}
+
+.desH3 h3{
+  color:rgb(7, 7, 107);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+
+.profText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3em;
+}
+
+.profText h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#0e4c92;
+}   
+
+.profText i{
+  font-size: 20px;
+  color: #0e4c92;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+.profContent{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10em;
+  padding: 3em;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  height:max-content;
+  width: 100%;
+}

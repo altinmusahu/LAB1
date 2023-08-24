@@ -1,0 +1,96 @@
+.container-partner {
+    /* background-position: center; */
+    /* max-width: 1170px;
+    margin-left: 100px;
+    margin-right: 0;
+    margin-top: 150px; */
+    /* padding: 1em; */
+  }
+
+  /* ---- */
+  /* FORM */
+  /* ---- */
+  
+  .contact-partner form {
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+    grid-gap: 20px;
+
+  }
+  
+  .contact-partner form label {
+    display: block;
+  }
+  
+  .contact-partner form p {
+    margin: 0;
+  }
+  
+  .contact-partner form .full {
+    grid-column: 1 / 3;
+  }
+  
+  .contact-partner form button,
+  .contact-partner form input,
+  .contact-partner form textarea {
+    width: 100%;
+    padding: 1em;
+    border: solid 1px #627EDC;
+    border-radius: 4px;
+  }
+  
+  .contact-partner form textarea {
+    resize: none;
+  }
+  
+  .contact-partner form button {
+    background: #627EDC;
+    border: 0;
+    color: #e4e4e4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .contact-partner form button:hover,
+  .contact-partner form button:focus {
+    background: #3952a3;
+    color: #ffffff;
+    outline: 0;
+    transition: background-color 2s ease-out;
+  }
+  #emaili{
+      margin-bottom: 20px;
+  }
+
+
+  
+  /* ------------- */
+  /* MEDIA QUERIES */
+  /* ------------- */
+  
+  @media only screen and (min-width: 700px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .wrapper > * {
+      padding: 2em;
+    }
+  
+    .company-info {
+      border-radius: 4px 0 0 4px;
+    }
+  
+    /* .contact-partner {
+      border-radius: 0 4px 4px 0;
+    } */
+  
+    .company-info h3,
+    .company-info ul,
+    .brand {
+      text-align: left;
+    }
+    
+  }

@@ -1,0 +1,32 @@
+#Searchform{
+    border: 0;
+    margin-left: 10%;
+}
+
+#SearchBox{
+    margin-right: 90%;
+}
+#TextAS{
+    color:cadetblue ;
+    align-self: flex-start;
+}
+
+.CoursesHero{
+    background-color: #333;
+    padding: 0%;
+    height: 25em;
+    padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#CoursesImg{
+    width: 5em;
+    height: 5em;
+}
+
+.kartat{
+    display: inline-flex;
+}

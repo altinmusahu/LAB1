@@ -1,0 +1,24 @@
+.Filterat{
+   display: flex;
+   flex-direction: row;
+    background-color: rgb(201, 216, 240);
+    padding: 1em;
+}
+
+.dropdown1{
+    background-color: rgb(178, 178, 231);
+    border: 1px solid rgb(178, 178, 231);
+}
+
+.dropdown1:hover{
+    background-color: rgb(178, 178, 255);
+    border: 1px solid rgb(178, 178, 255);
+}
+.dropdown1:focus{
+    background-color: rgb(178, 178, 255);
+    border: 1px solid rgb(178, 178, 255);
+}
+.dropdown1{
+    background-color: rgb(178, 178, 255);
+    border: 1px solid rgb(178, 178, 255);
+}
